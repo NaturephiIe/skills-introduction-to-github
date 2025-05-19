@@ -1,0 +1,114 @@
+body{
+    background-image: url(creativity.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+} 
+#table  {
+  border-collapse: collapse;
+  width: 400px;
+  border: 2px solid white; /* White border for the entire table */
+  margin: top 70px;
+}
+
+
+
+/* CSS */
+#randomletter {
+  align-items: center;
+  background-image: linear-gradient(144deg,#120819, #0d025a 50%,#74e0e8);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#randomletter:active,
+#randomletter:hover {
+  outline: 0;
+}
+
+#randomletter span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+#randomletter:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  #randomletter {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+.hf input {
+  height: 200px;
+  background-color:transparent;
+  color:whitesmoke;
+  text-align: center;
+
+}
+#generaterandomletter {
+  color: white;
+}
+.hd {
+  background-color: black;
+}
+img {
+  width: 100%;
+  height:100%
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; }
+  /* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkslategrey;
+  border-radius: 10px;
+}
+
